@@ -1,0 +1,124 @@
+.headerSection{
+    background-color: #F5DEB3;
+}
+.logo{}
+.logo img {
+    width: 150px;
+    height: auto;
+    margin-top: 6px;
+}
+.menue{}
+.menue ul {
+    padding-bottom: 0;
+    margin-bottom: 0;
+    height: 100%;
+}
+.menue ul li {
+    height: 100%;
+    margin-left: 38px;
+    border-right: 1px solid #ffff;
+    display: inline-block;
+}
+.menue ul li a {
+    text-decoration: none;
+    text-transform: capitalize;
+    line-height: 4;
+    padding-right: 37px;
+    color: white;
+    font-size: 19px;
+    font-weight: 600;
+}
+.menue ul li:nth-child(1){
+    border:none
+}
+.banner-section {
+    background-image: url(./Images/intro-bg.jpg);
+    background-size:cover;
+    background-position: center center;
+    padding: 185px 0px;
+}
+.banner-text p {
+    color: #3498DB;
+    font-size: 35px;
+    font-weight: 500;
+}
+.banner-text h1{
+    color: #3498DB;
+    font-size: 45px;
+    font-weight: 500;
+}
+.team-about{}
+.team-img {
+    width: 370px;
+    margin-right: 20px;
+}
+.team-img img{
+    width: 100%;
+    height: auto;
+}
+.tam-content{
+    width: 670px;
+}
+.tam-content h1{}
+.tam-content h2 {
+    margin-bottom: 40px;
+}
+.tam-content p {
+    font-weight: 500;
+    color: black;
+    line-height: 3;
+}
+.service-section{
+    background: #FFFAF0;
+}
+
+.serviceBox {
+    text-align: center;
+    border: 2px dashed #dddd;
+    margin-right: 51px;
+    /* --bs-gutter-x: coral; */
+    width: 344px;
+    padding: 30px 0px;
+    border-radius: 50px 0px;
+}
+.serviceBox:nth-child(3){
+    margin-right: 0;
+}
+.service-icon{}
+.service-icon i {
+    color: #2398DB;
+    font-size: 40px;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    border-radius: 20px 0px;
+    border: 2px solid #2398DB;
+}
+.service-info{}
+.service-info h1 {
+    font-size: 33px;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+.service-info p{
+    font-weight: 500;
+}
+.footer-section{
+    background-color: #2C3E50;
+}
+
+
+.footer-icon ul{}
+.footer-icon ul li{
+    display: inline-block;
+}
+
+     
+.footer-icon ul li a {
+    text-decoration: none;
+    color: white;
+    margin: 8px;
+}
+.footer-icon ul li a i{}
